@@ -1,0 +1,131 @@
+body{
+   background-color: #0b4f6c;
+    font-family: sans-serif;
+}
+*{
+    font-family: sans-serif;
+}
+#right-design{
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    height: 80vh;
+}
+.img{
+   max-width:75vh;
+   max-height: 60vh;
+    align-self: center;
+}
+#left-design{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#person{
+    max-width:75vh;
+   max-height: 60vh;
+    align-self: center;
+    border-radius: 100%;  
+    
+}
+.touch{
+    margin-top:-50px;
+    transform: rotate(270deg);
+    max-height:360px ;
+    max-width:230px ;
+    
+}
+#home{
+    
+    height: 100vh;
+}
+ .row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .skill-section{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-self: center;
+    justify-content: center;
+ }
+
+ #skill{
+    margin-top: 10px;
+color: white;
+ }
+
+ ul{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    align-self: center;
+    justify-content: center;
+ }
+ li{
+    font-size: 23px;
+color:orange;
+margin: 13px;
+ }
+
+ .projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+ }
+
+
+ .project-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+ }
+  
+ h3,h4{
+    color: orange;
+    margin-top: 15px;
+    text-decoration: underline;
+ }
+ .p{
+    max-width:900px; 
+    margin: 10px;
+    font-family: sans-serif;
+
+ }
+
+  #h2{
+    margin-top: 20px;
+    font-size:25px;
+    color: white;
+    text-decoration: underline;
+  }
+.img1{
+    max-width: 100%;
+    align-self: center;
+}
+.img-pro{
+    max-width: 65%;
+  height: auto;
+  border-radius:10%;
+}

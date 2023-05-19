@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPortfolio.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="website.js" defer>
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_aoab5TDXTO1gsjSYGqetD");
+    })();
+    </script>
+</head>
+<body class=" ">
+    <nav class="navbar navbar-expand  " style="background-color:  white;  height:50px; font-size:16px;" >
+        <div class="container ">
+            <a class="nav-link text-blue" href="#home">Home</a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-danger"  target="_blank" href="https://www.linkedin.com/in/amponsah-denis-boahen/">LinkedIn</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link text-danger class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-md btn-danger " id="home">
+<div class="row" >
+    <div class="col-md-5 mt-3 ">
+        <div class=" d-flex image text-white" id="left-design"  data-aos="zoom-in">
+        <p   style="font-size:18px ; margin-top:110px"><span class=" text-primary" style="font-size:24px ; ">Hi!  </span> I am</p>
+        <h2 style="margin-top:20px ;">Amponsah Denis Boahen</h2>
+        <h3 class="text-white">A Data Analyst</h3>
+        <h4>Welcome here!</h4>
+        <p>Email: amponsahdenis53@gmail.com</p>
+        </div>
+    </div>
+    <div class="col-md-7" id="right-design" >
+        <img class='img' id="person" src="me.jpg" alt="" srcset="">
+    </div>
+</div>
+      </div>
+      <div class="container-fluid image " id="about" style="padding-top:180px; background-color: whitesmoke;" >
+        <div class="image ">
+            
+            <div class="  image  mb-5 " style="padding-top:10px;">
+                <h1    style="font-size:23px; color: orange; text-decoration: underline;" >About me</h1>
+                <img class=" mt-3 " src="about.jpg" alt="" srcset="" style="height:150px; width:150px; border-radius: 100%;">
+                <p  data-aos="fade-up" class=" text-dark"
+                data-aos-duration="2000" style="max-width:900px ; margin-top:10px;"> Hello I am Denis, 
+                a guy who love creating dashboards concerning calculations,
+                  good designs and finding business problems and providing solutions to them .I choose Data Analyst as my career
+                   because I love learning and
+                  solving technical problems concerning data. Denis only thinks and provides solutions that might
+                  improve the running of businesses and making more profit than ever before, Thank you!.</p>
+            </div>
+          
+        </div>
+      
+    
+    </div>
+
+    <div class='skill-section'>
+
+      <h2 id="skill">My skills</h2>
+      <ul>
+        <li>Excel</li>
+        <li>Sql</li>
+        <li>python</li>
+        <li>power bi / Tableau</li>
+        <li>github</li>
+      </ul>
+    </div>
+
+ <div class="projects">
+  <h2 id="h2">My Dashboard Projects</h2>
+<div class="project-one">
+<h3>First project</h3>
+<img class="img-pro" src="project2.png" alt="" srcset="">
+
+<h4>Observations</h4>
+<p class="p "data-aos="fade-up" 
+data-aos-duration="2000">This is the link to the <a href="https://github.com/Amponsah-Boahen-Denis/power-bi-projects1">project</a>.  This is a shipping products dashboard I created with Power bi tool
+  and excel for the data cleasing.  From the dashboard what I observed is that , some of the shhipping projects
+  has been shipped to many countries and to different customers. Whilst others are not improving well.
+  That could be the scarsity of the products or small number of customers for such products across the geography
+  And also the higher the number of customers of a particular product the higher the profit they make and vice versa
+</p>
+<h4>conclution</h4>
+<p class="p">I think for them to make more profit from this products, they create more pruducts of those that are 
+  scarce and try to find more customers for such projects.
+</p>
+
+</div>
+
+
+
+
+
+
+<div class="project-one">
+  <h3>Second Project</h3>
+  <img class="img-pro" src="project3.png" alt="" srcset="">
+  <h4>Observations</h4>
+  <p class="p"data-aos="fade-up" 
+  data-aos-duration="2000">This is the link to the  <a href="https://github.com/Amponsah-Boahen-Denis/power-bi-project3">project</a>. This is another project I did and it all about Dashboard for Beverage Brand 
+  . From the dashboard I created I realised that coca cola is the most distributed across all customers than any of the other Beverage
+  brand. And also sprite is the brand that has low sales because customers are not demanding it unlike Coca Cola thereby generating low
+  income to the company.  And the performance of the other Brands too are not doing bad at all. I used sql for organizing the data and power bi for
+   visualization.
+  </p>
+  <h4>Conclution</h4>
+  <p class="p">
+    I would like to conclude that, they should try on making for profit from sprite Brand to improve their revenue. 
+    And they could also try to add more Beverage Brands to their menu for improvement.
+  </p>
+  
+  </div>
+
+
+
+
+
+  <div class="project-one">
+    <h3>Third Project</h3>
+    <img class="img-pro"data-aos="fade-up" 
+data-aos-duration="2000" src="project1.png" alt="" srcset="">
+    <h4>Observations</h4>
+    <p class="p"data-aos="fade-up" 
+    data-aos-duration="2000">This is the link to the  <a href="https://github.com/Amponsah-Boahen-Denis/power-bi-project">project</a>. this is Cookies distribution dashboard of a company I created.
+      I use power bi for the data cleaning and visualisation. Things I realised about this project is that, 
+       this company delay a lot when distributing Cookies to their customers by checking the date difference 
+       between date ordered and date delivered. Due to that some of the types of the cookies are not frequently distributed
+       to their customers.
+      In the year 2017 they made alot of profit because the number of their customers started increasing.
+      
+    </p>
+    <h4>conclution</h4>
+    <p class="p">I will conclude by saying that , the company should try to deliver the cookies on time or  they
+      should hire more people so that they can deliver them on time.
+      And finally they should try to advertise their cookies to more restaurants for customers.
+    </p>
+    
+    </div>
+
+   </div>
+    
+      
+      <!-- The Modal -->
+      <div class="modal"   id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="image" >
+        
+                    <form class="image col-md-8 " style="max-width:450px ;"action="">
+                        <h2 class="text-primary">contact me</h2>
+                        <div class="container form-floating m-3">
+                            <input type="Name" id="name" class="form-control " placeholder="enter">
+                            <label for="Name" class="form-label text-success" >Name</label>
+                        </div>
+                        <div class="container form-floating m-3">
+                            <input type="Email" id="email" class="form-control form-sm" placeholder="enter">
+                            <label for="Email" class="form-label text-success" >Email</label>
+                        </div>
+                        <div class="container form-floating m-3 ">
+                            <input type="textarea" id="message" class="form-control  " style="height: 100px;" placeholder="enter">
+                            <label for="Message me!" class="form-label text-success" >Message me</label>
+                        </div>
+                       <button type="submit" id="send" class="btn  btn-outline-primary btn-border-rounded text-dark">send</button>
+                       <p id="p" class="text-primary"></p>
+                       <p id="no" class="text-danger"></p>
+                    </form>
+                </div>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
